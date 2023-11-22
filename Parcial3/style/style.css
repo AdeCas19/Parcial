@@ -1,0 +1,19 @@
+.new_link{
+    /* letter-spacing: 4pt; /* para separar entre letras */
+     word-spacing: 8pt;   /* separacion entre palabras */ 
+     line-height: 22pt;   /* separacion entre lineas */ 
+     text-indent: 28pt;   /* para sangrias */ 
+   }
+ 
+   .center_label{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ 
+   .wrapper {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 10px;
+     grid-auto-rows: 330px;
+   }
